@@ -133,6 +133,10 @@ input[type="reset"]:hover {
   /* media queries */
 
   @media (max-width: 490px){
+
+    body{
+      height: 100vh;
+    }
    
 
   form{
