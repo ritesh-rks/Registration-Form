@@ -74,6 +74,10 @@ input[type="reset"] {
     cursor: pointer;
 }
 
+.btn-1{
+  margin-right: 10px;
+}
+
 input[type="submit"]:hover{
     background-color: #45a049;
 }
@@ -137,6 +141,12 @@ input[type="reset"]:hover {
     background: none;
     box-shadow: none;
     height: 100vh;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
