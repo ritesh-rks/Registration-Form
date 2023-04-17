@@ -126,6 +126,19 @@ input[type="reset"]:hover {
 
 
 
+  /* media queries */
+
+  @media (max-width: 490px){
+   
+
+  form{
+    margin-top: 0;
+    width: auto;
+  }
+
+
+}
+
   
  
 
