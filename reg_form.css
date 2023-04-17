@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url('Image/bg.jpeg');
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(5px);
+}
+
+/* form */
+
+form{
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;   
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #a8dadc;
+}
+
+/* Input */
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+
+/* gender */
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.gender span, .interests span{
+    color: #a8dadc;
+    margin-right: 5px;
+}
+
+.gender, .interests{
+    margin-top: 0.8rem;
+    margin-bottom: 10px;
+}
+
+/* button */
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+}
+
+input[type="reset"]:hover {
+    background-color: #c62828;
+}
+
+
+/* after submit */
+
+#resultContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  #resultContainer p{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40) forwards;
+  }
+
+
+
+  
+ 
+

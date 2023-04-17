@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form Assignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reg_form.css">
+  </head>
+  <body >
+
+    <!-- form -->
+
+    <form id = "MyForm">
+
+      <!-- Nmae -->
+
+      <label for="">Name:</label>
+      <input type="text" id="name"/>
+      <span style="color: red;" id="nameError"></span>
+    </div>
+
+
+    <!-- Email -->
+
+    <div class="email">
+      <label for="">Email:</label>
+      <input type="email" id="email"/>
+      <span style="color: red; font-weight: bold; transition: opacity 5s ease-in-out;" id="error_message_email"></span>
+    </div>
+
+    <!-- Phone -->
+
+    <div class="phone">
+      <label for="">Phone:</label>
+      <input type="number" id="contact" />
+      <span style="color: red; font-weight: bold; transition: opacity 5s ease-in-out;" id="error_message_phone"></span>
+    </div>
+
+    <!-- Passwords -->
+
+    <div class="passwords">
+      <label for="">Password:</label>
+      <input type="password" id="password" />
+      <span style="color: red;" id="error_message"></span>
+    </div>
+
+    <div class="confirm_password">
+      <label for="">Confirm Password:</label>
+      <input type="password" id="confirm-password"/>
+      <span style="color: red;" id="error_message-confirmPsd"></span>
+    </div>
+
+    <!-- DOB -->
+
+    <div class="date_of_birth">
+      <label for="">Date of Birth:</label>
+      <input type="date" id="dob" required/>
+    </div>
+
+    <!-- Gender -->
+
+    <div class="gender">
+      <label for="">Gender: <span style="color: red;" id="error_message_gender"></span> </label>
+      <input type="radio" id="maleRadio" value="Male" name="Gender"><span class="choices"
+        >Male</span>
+      <input type="radio" id="femaleRadio" value="Female" name="Gender" /><span class="choices"
+        >Female</span>
+      <input type="radio" id="otherRadio" value="Other" name="Gender" /><span class="choices"
+        >Other</span>
+        
+    </div>
+
+    <!-- Intrests -->
+
+    <div class="interests">
+      <label for="">Interests:<span style="color: red;" id="error_message_interests"></span></label>
+      <input type="checkbox" id="musicCheckbox"  value="Music"/><span class="choices">Music</span>
+      <input type="checkbox" id="sportsCheckbox" value="Sports"/><span class="choices">Sports</span>
+      <input type="checkbox" id="readingCheckbox" value="Reading"/><span class="choices">Reading</span>
+    </div>
+
+    <!-- Button -->
+
+    <div class="buttons">
+      <input type="reset" value="Reset" class="btn btn-1" />
+      <input type="submit" value="Submit" class="btn btn-2" />
+    </div>
+    </form>
+
+    <!-- Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
