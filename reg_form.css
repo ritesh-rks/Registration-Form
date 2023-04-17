@@ -134,7 +134,7 @@ input[type="reset"]:hover {
   form{
     margin-top: 0;
     width: auto;
-    background-color: none;
+    background: none;
     box-shadow: none;
   }
 
